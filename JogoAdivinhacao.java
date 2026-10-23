@@ -20,6 +20,8 @@ public class JogoAdivinhacao {
         System.out.println();
         System.out.println("O número secreto era " + encontrado + ".");
         System.out.println("Total de tentativas: " + tentativas[0]);
+        System.out.println("A busca linear levaria até 1000 tentativas; "
+        + "a busca binária levou " + tentativas[0] + ".");
     }
 
     public static int buscaBinaria(int inicio, int fim,
